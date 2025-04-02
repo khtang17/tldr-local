@@ -1,0 +1,11 @@
+#SET UP ENVIRONMENT
+https://www.rdkit.org/docs/Install.html
+
+$ conda create -c rdkit -n my-rdkit-env rdkit
+$ conda activate my-rdkit-env
+
+# RUN SCRIPT
+(my-rdkit-env)$ cd STRAIN_FILTER
+(my-rdkit-env)$ python  Torsion_Strain.py {db2 or mol2}
+
+
