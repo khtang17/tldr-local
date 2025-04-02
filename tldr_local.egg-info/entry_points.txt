@@ -1,5 +1,0 @@
-[console_scripts]
-bb_filter = tldr_local.bbfilter.main:main
-cluster = tldr_local.cluster.main:main
-fine_tranche = tldr_local.fine_tranche.main:main
-strain = tldr_local.strain.main:main
