@@ -1,0 +1,5 @@
+build/
+dist/
+tldr_local.egg-info/
+*.pyc
+*/__pycache__/
