@@ -46,10 +46,9 @@ options:
 
 Example:
  ```
- >>> from tldr_local import fine_tranche
->>> from tldr_local.fine_tranche.main import scale_logp_value
->>> scale_logp_value(0.9)
-90
+>>> from tldr_local.fine_tranche.main import fine_tranche
+>>> fine_tranche('Cc1c(-c2ccccc2)nn(C)c1NS(=O)(=O)C1CCCCC1')
+('P340', 'H23')
 ```
 
 
