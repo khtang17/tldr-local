@@ -1,7 +1,9 @@
 # TLDR-local
  Running TLDR modules locally
 ## Installation 
-1. Setup Python virtual environment
+1. Setup Python virtual environment and install rdkit
+
+If 
  ```
     pip install rdkit-pypi # or pip
     or
@@ -12,11 +14,12 @@
 ```
  git clone https://github.com/khtang17/tldr-local.git
  cd tldr-local
- pip install -e .
+python setup.py sdist bdist_wheel
+ pip install dist/tldr_local-<version>-py3-none-any.whl
  ```
 3. Check installation
  ```
- python -m 'import tldr-local
+ python -c 'import tldr_local'
  ```
 
 ## Usage
