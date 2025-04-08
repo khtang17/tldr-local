@@ -3,11 +3,15 @@
 ## Installation 
 1. Setup Python virtual environment and install rdkit
 
-If 
+Option 1: use python venv
  ```
-    pip install rdkit-pypi # or pip
-    or
-    conda install conda-forge::rdkit # for conda
+    python3 -m venv <venv_name>
+    pip install rdkit-pypi 
+```
+Option 2: conda env
+```
+    conda create -c conda-forge -n <venv_name> rdkit
+    conda install -c conda-forge rdkit # for conda
 ```
 
 2. Download `tldr-local` repo
