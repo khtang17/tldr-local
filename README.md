@@ -14,8 +14,8 @@ If
 ```
  git clone https://github.com/khtang17/tldr-local.git
  cd tldr-local
-python setup.py sdist bdist_wheel
- pip install dist/tldr_local-<version>-py3-none-any.whl
+python setup.py sdist 
+ pip install dist/tldr_local-<version>.tar.gz
  ```
 3. Check installation
  ```
