@@ -3,27 +3,26 @@
 ## Installation 
 1. Setup Python virtual environment and install rdkit
 
-Option 1: use python venv
- ```
-    python3 -m venv <venv_name>
-    pip install rdkit-pypi 
+Option 1: use python venv (Python3.8+)
 ```
-Option 2: conda env
+  python3 -m venv <venv_name>
+  pip install rdkit-pypi 
 ```
-    conda create -c conda-forge -n <venv_name> rdkit
-    conda install -c conda-forge rdkit # for conda
+Option 2: use Conda
+```
+  conda create -c conda-forge -n <venv_name> rdkit
 ```
 
 2. Download `tldr-local` repo
 ```
  git clone https://github.com/khtang17/tldr-local.git
  cd tldr-local
-python setup.py sdist 
+ python setup.py sdist 
  pip install dist/tldr_local-<version>.tar.gz
  ```
 3. Check installation
  ```
- python -c 'import tldr_local'
+  python -c 'import tldr_local'
  ```
 
 ## Usage
@@ -33,7 +32,7 @@ It is currently support `bb_filter`, `strain` and `fine_tranche`
 
 Example:
  ```
-bb_filer --help
+bb_filter --help
 usage: bb_filter [-h] [--hac-range HAC_RANGE] bb_file output inclusion_smarts exclusion_smarts
 
 Filter building blocks based on HAC, inclusion and exclusion rules
