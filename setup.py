@@ -13,7 +13,6 @@ setup(
     ],
     install_requires=[  
        "tqdm",
-       "rdkit-pypi",
     ],
     entry_points={  # Define the console scripts here
         'console_scripts': [
