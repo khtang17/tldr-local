@@ -6,11 +6,26 @@
 Option 1: use python venv (Python3.8+)
 ```
   python3 -m venv <venv_name>
-  pip install rdkit-pypi 
+
+  # activate python environment
+  souce <venv_name>/bin/activate
+
+  # install dependencies
+  pip install --upgrade pip setuptools
+  pip install rdkit-pypi # Python3.8-3.11
+  pip install rdkit # Python3.12
+
+  # deactivate venv
+  deactivate
 ```
 Option 2: use Conda
 ```
   conda create -c conda-forge -n <venv_name> rdkit
+  # activate conda environment
+  conda activate <venv_name>
+  # deactivate conda environment
+  conda deactivate
+
 ```
 
 2. Download `tldr-local` repo
